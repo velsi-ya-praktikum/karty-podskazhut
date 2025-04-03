@@ -97,9 +97,9 @@ figure {
   background: url(../images/marker-light.svg) no-repeat center;
   background-size: cover;
   inset-inline-start: -25px;
-  inset-block-start: 5px;
   block-size: 15px;
   inline-size: 15px;
+  inset-block-start: calc((100% / 2) - 7.5px);
 }
 
 .theme_dark .content__list-item::before {
